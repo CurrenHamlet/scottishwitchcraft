@@ -1,0 +1,38 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: lightgrey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+li a:hover {
+    cursor: default;
+    color: grey;
+    
+}
+
+body{
+    background-color: #111;
+}
+
+.right{
+    float: right;
+}
+
+.text{
+    color: lightgray;
+}
