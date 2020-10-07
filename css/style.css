@@ -36,3 +36,11 @@ body{
 .text{
     color: lightgray;
 }
+
+.citation {
+    font-size: small;
+}
+
+.indent {
+    text-indent: 50px;
+}
