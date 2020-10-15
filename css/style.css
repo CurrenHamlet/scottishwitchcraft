@@ -41,7 +41,11 @@ body{
     font-size: small;
 }
 
-.indent {
+.hanging-indent {
     padding-left: 50px;
     text-indent: -50px;
+}
+
+.indent {
+    text-indent: 50px;
 }
