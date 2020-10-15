@@ -42,5 +42,6 @@ body{
 }
 
 .indent {
-    text-indent: 50px;
+    padding-left: 50px;
+    text-indent: -50px;
 }
