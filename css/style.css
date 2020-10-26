@@ -21,7 +21,7 @@ li a {
 
 li a:hover {
     cursor: default;
-    color: grey;
+    color: white;
     
 }
 
@@ -49,3 +49,26 @@ body{
 .indent {
     text-indent: 50px;
 }
+
+.collapsible {
+    background-color: #111;
+    color: lightgrey;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+
+  .active, .collapsible:hover {
+    background-color: #111;
+  }
+
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #111;
+  }
