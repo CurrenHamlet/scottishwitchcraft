@@ -50,6 +50,10 @@ body{
     text-indent: 50px;
 }
 
+.annotation {
+    padding-left:50px;
+}
+
 .collapsible {
     background-color: #111;
     color: lightgrey;
